@@ -57,10 +57,7 @@ class App extends Component {
           <h1>ELF Computing | Laptops</h1>
         </header>
         <main>
-          <form className="main__form">
-            <h2>Customize your laptop</h2>
             {features}
-          </form>
           <CartList
             selected={this.state.selected}
             USCurrencyFormat={USCurrencyFormat}
